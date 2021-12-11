@@ -1,0 +1,17 @@
+{
+  "name": "timetable-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "inherits": "^2.0.4",
+    "obs-websocket-js": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
