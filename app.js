@@ -17,7 +17,7 @@ function retract() {
   console.log('OBS Hotkey Retract at: ' + new Date().toLocaleString())
 }
 
-const job0 = new CronJob('10,50 */2 * * * ', retract)
-const job1 = new CronJob('30 1-23/2 * * *', retract)
+const job0 = new CronJob('30 */2 * * * ', retract)
+const job1 = new CronJob('10,50 1-23/2 * * *', retract)
 job0.start()
 job1.start()
